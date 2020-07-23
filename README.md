@@ -20,22 +20,22 @@ huge credit to inflearn "스프링 입문 - 코드로 배우는 스프링 부트
 3. java -jar hello-spring-0.0.1-SNAPSHOT.jar
 
 ### View
-Welcome page = index.html
-thymeleaf https://www.thymeleaf.org/
-th: thymeleaf 의미
+- Welcome page = index.html
+- thymeleaf https://www.thymeleaf.org/
+- th: thymeleaf 의미
 
 ### Controller
-controller는 web의 진입장벽이다
-controller는 @Controller 필요
-return "~" = template의 ~.html이 화면에 뿌려짐
-cf. @RequestParam()은 주소창에 ? 뒤 값
+- controller는 web의 진입장벽이다
+- controller는 @Controller 필요
+- return "~" = template의 ~.html이 화면에 뿌려짐
+- cf. @RequestParam()은 주소창에 ? 뒤 값
 
 ### API
-@ResponseBody 필요
-template engine을 통해 html을 뿌려주는 것이 아니라, 그냥 데이터 값을 바로 뿌려줌
-json data format (xml 대신)
-객체가 반환될때 json (MappingJackson2HTTPMessageConverter)
-cf. Jackson - json library
+- @ResponseBody 필요
+- template engine을 통해 html을 뿌려주는 것이 아니라, 그냥 데이터 값을 바로 뿌려줌
+- json data format (xml 대신)
+- 객체가 반환될때 json (MappingJackson2HTTPMessageConverter)
+- cf. Jackson - json library
 
 ### Test
 1. JUnit
@@ -45,4 +45,12 @@ cf. Jackson - json library
 
 ## Business Logic
 Keep patient id, name
+
+## Spring Framework 101
+- DI (Dependency Injection): 어떠한 객체의 외부에서 다른 객체를 만들어 따로 주입하여 외부 객체에 의존하도록 만드는 방식
+ - Reusable
+ - Dependency Reduction
+ - Loose coupling
+ - Readability
+ 
 
