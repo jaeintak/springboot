@@ -41,6 +41,7 @@ huge credit to inflearn "스프링 입문 - 코드로 배우는 스프링 부트
 1. JUnit
 2. Test should be executed without regards to the order of methods, thusly repository should be cleared every time. @AfterEach
 3. given / when / then
+4. @Transactional = rollback
 
 
 ## Business Logic
@@ -52,5 +53,8 @@ Keep patient id, name
  - Dependency Reduction
  - Loose coupling
  - Readability
+ 
+ ## DB
+ h2database.com
  
 
