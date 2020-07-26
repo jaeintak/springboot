@@ -55,6 +55,6 @@ Keep patient id, name
  - Readability
  
  ## DB
- h2database.com
- 
+ - h2database.com
+ - JPA
 
