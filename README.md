@@ -57,4 +57,8 @@ Keep patient id, name
  ## DB
  - h2database.com
  - JPA
+ - Spring data JPA: findall(), save() 등 공통된 부분을 만들어줌 CRUD
+ 
+ ## AOP (Aspect Oriented Programming)
+ 
 
